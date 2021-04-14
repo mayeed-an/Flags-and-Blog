@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:rgb(26, 23, 23);
+
+}
+.line {
+    border-top: 6px solid rgb(78, 4, 4);
+    margin: 3px auto 5px;
+    box-shadow: 2px 2px 4px yellow;
+}
+
+.header {
+        height: 50px;
+        background-color: rgba(122, 9, 9, 0.651);
+        font-family: Copperplate Gothic;
+        font-weight: bolder;
+        font-size: 21px;
+        font-style: italic;
+        text-align: center;
+        color: yellow;
+        margin: 30px auto 0px;
+}
+
+.header p span:nth-child(1) {
+    color: gold;
+    font-size: 16px;
+    font-family: serif;
+    
+}
+
+.intro {
+    background-color: aquamarine;
+    margin: 0px auto 0px;
+    width: 700px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.intro h1 {
+    color: rgb(255, 7, 7);
+    font-size: 32px;
+    font-family: Bahnschrift Condensed;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.521);
+    text-shadow: 2px 4px 4px rgb(253, 249, 4);
+    border: 2px solid black;
+}
+.intro p {
+    font-family: candara;
+    font-size: 17px;
+    color: black;
+    text-align: justify;
+    text-indent: 4px;
+}
+
+.coverpic {
+    margin: 30px auto 0px;
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    padding: 6px;
+}
+.coverpic h2 {
+    color:rgb(45, 3, 58);
+    font-size: 22px;
+    font-family: Bodoni MT;
+    background-color: rgba(112, 4, 4, 0.486);
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.coverpic img {
+    width: 350px;
+    border-top: 10px groove rgb(78, 4, 4);
+    border-bottom: 10px groove rgb(78, 4, 4);
+    border-left: 8px groove rgb(78, 4, 4);
+    border-right: 8px groove rgb(78, 4, 4);
+}
+
+.work {
+    width: 700px;
+    background-color: aqua;
+    margin: 30px auto 0px;
+    padding: 6px;
+    text-align: center;
+}    
+.work table {
+    border: 2 dashed black;
+    width: 500px;
+    height: 150px;
+    color: black;
+    background-color: aqua;
+    font-weight: bolder;
+}
+
+.work thead {
+    font-size: 22px;
+}
+
+.work tbody {
+    text-align: left;
+    font-size: 16px;
+}
+.work p {
+    color:rgb(45, 3, 58);
+    font-size: 22px;
+    font-family: Bodoni MT;
+    background-color: rgba(112, 4, 4, 0.486);
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.profile {
+    width: 700px;
+    background-color: aqua;
+    margin: 30px auto 0px;
+    text-align: center;
+    padding: 6px;
+}
+
+.profile p {
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: left;
+}
+.profile ul {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    text-align: justify;
+    list-style-position: inside;
+}
+
+.profile h3 {
+    color:rgb(45, 3, 58);
+    font-size: 22px;
+    font-family: Bodoni MT;
+    background-color: rgba(112, 4, 4, 0.486);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.profile img {
+    width: 350px;
+    border-top: 10px groove rgb(78, 4, 4);
+    border-bottom: 10px groove rgb(78, 4, 4);
+    border-left: 8px groove rgb(78, 4, 4);
+    border-right: 8px groove rgb(78, 4, 4);
+}
+
+.fav {
+    width: 700px;
+    background-color: aqua;
+    margin: 30px auto 0px;
+    text-align: left;
+    padding: 6px;
+}
+
+.fav h4 {
+    color:rgb(45, 3, 58);
+    font-size: 22px;
+    font-family: Bodoni MT;
+    background-color: rgba(112, 4, 4, 0.486);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.fav dd{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.fav dl {
+    list-style-position: inside;
+
+}
+
+.fav p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.fav ul {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    text-align: justify;
+}
+
+.notice {
+    width: 700px;
+    background-color: aqua;
+    margin: 30px auto 0px;
+    text-align: left;
+    padding: 6px;
+}
+
+.notice h5 {
+    color:rgb(45, 3, 58);
+    font-size: 22px;
+    font-family: Bodoni MT;
+    background-color: rgba(112, 4, 4, 0.486);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.notice iframe {
+    width: 700px;
+    height: 500px;
+    border-top: 10px groove rgb(78, 4, 4);
+    border-bottom: 10px groove rgb(78, 4, 4);
+    border-left: 0px groove rgb(78, 4, 4);
+    border-right: 0px groove rgb(78, 4, 4);
+}
+
+.cont {
+    width: 550px;
+    background-color: aqua;
+    margin: 30px auto 0px;
+    text-align: center;
+    padding: 6px;
+}
+.cont h6 {
+    color:rgb(45, 3, 58);
+    font-size: 22px;
+    font-family: Bodoni MT;
+    background-color: rgba(112, 4, 4, 0.486);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.cont p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline dotted;
+}
+
+.cont img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.con {
+    margin: 20px auto 10px;
+    width: 700px;
+}
+.con p {
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline dashed;
+    color: chartreuse;
+    text-shadow: 2px 2px 4px tomato;
+}
