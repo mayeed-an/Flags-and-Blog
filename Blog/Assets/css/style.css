@@ -4,13 +4,7 @@
 }
 
 body {
-    background-color:rgb(26, 23, 23);
-
-}
-.line {
-    border-top: 6px solid rgb(78, 4, 4);
-    margin: 3px auto 5px;
-    box-shadow: 2px 2px 4px yellow;
+    background-color:rgb(65, 55, 55);
 }
 
 .header {
@@ -23,18 +17,20 @@ body {
         text-align: center;
         color: yellow;
         margin: 30px auto 0px;
+        box-shadow: 1px -4px 2px yellow;
+        border-bottom: 1px solid yellow;
 }
 
 .header p span:nth-child(1) {
     color: gold;
     font-size: 16px;
     font-family: serif;
-    
+
 }
 
 .intro {
     background-color: aquamarine;
-    margin: 0px auto 0px;
+    margin: 30px auto 0px;
     width: 700px;
     padding: 5px;
     font-weight: bold;
@@ -50,11 +46,12 @@ body {
     text-shadow: 2px 4px 4px rgb(253, 249, 4);
     border: 2px solid black;
 }
+
 .intro p {
     font-family: candara;
     font-size: 17px;
     color: black;
-    text-align: justify;
+    text-align: left;
     text-indent: 4px;
 }
 
@@ -62,16 +59,25 @@ body {
     margin: 30px auto 0px;
     background-color: aqua;
     width: 700px;
+    height: 500px;
     text-align: center;
     padding: 6px;
+    background-image: url(../img/story.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .coverpic h2 {
-    color:rgb(45, 3, 58);
+    color:rgb(213, 170, 226);
     font-size: 22px;
     font-family: Bodoni MT;
-    background-color: rgba(112, 4, 4, 0.486);
+    background-color: rgb(112, 4, 4);
     font-weight: bolder;
     letter-spacing: 2px;
+    margin: 460px auto 0px;
+}
+.coverpic h2 span {
+    color: #ffffff;
 }
 .coverpic img {
     width: 350px;
@@ -89,7 +95,6 @@ body {
     text-align: center;
 }    
 .work table {
-    border: 2 dashed black;
     width: 500px;
     height: 150px;
     color: black;
@@ -157,7 +162,7 @@ body {
     width: 700px;
     background-color: aqua;
     margin: 30px auto 0px;
-    text-align: left;
+    text-align: center;
     padding: 6px;
 }
 
@@ -176,7 +181,7 @@ body {
     font-weight: bolder;
 }
 .fav dl {
-    list-style-position: inside;
+    display: inline-block;
 
 }
 
@@ -184,6 +189,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-align: left;
+    
 }
 
 .fav ul {
@@ -191,6 +197,7 @@ body {
     font-weight: bold;
     text-align: left;
     text-align: justify;
+    margin: 5px 25px 0px ;
 }
 
 .notice {
@@ -226,9 +233,14 @@ body {
     margin: 30px auto 0px;
     text-align: center;
     padding: 6px;
+    background-image: url(../img/twitter.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center center;
+
 }
 .cont h6 {
-    color:rgb(45, 3, 58);
+    color:rgb(239, 231, 241);
     font-size: 22px;
     font-family: Bodoni MT;
     background-color: rgba(112, 4, 4, 0.486);
@@ -251,15 +263,9 @@ body {
     text-align: center;
 }
 
-.con {
-    margin: 20px auto 10px;
+.margin1, .margin2 {
+    height: 15px;
     width: 700px;
-}
-.con p {
-    font-size: 26px;
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: underline dashed;
-    color: chartreuse;
-    text-shadow: 2px 2px 4px tomato;
+    margin: 30PX auto 0px;
+    background: linear-gradient( to top, blue, red,skyblue);
 }

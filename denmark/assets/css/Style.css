@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+}
+
+.den {
+    background-color: #ffffff;
+    width: 450px;
+    height: 200px;
+    margin: 30px auto 0px;
+}
+
+.den:nth-child(1) {
+    width: 30px;
+    border-left: 110px solid red;
+    border-right: 310px solid red;
+}
+.den:nth-child(2) {
+    margin: 30px auto 0px;
+    width: 30px;
+    border-left: 110px solid red;
+    border-right: 310px solid red;
+}

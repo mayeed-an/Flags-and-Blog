@@ -106,23 +106,21 @@ p {
     width: 70px;
 }
 
-.denfirst {
-    height: 90px;
-    width: 20px;
-    background-color: white;
-    border-left: 100px solid red;
-    border-right: 220px solid red;
-    margin: 20px auto 0px;
 
+.denmark:nth-child(1) {
+    width: 15%;
+    height: 40px;
+    border-left: 55px solid red;
+    border-right: 200px solid red;
 }
-.denlast {
-    height: 90px;
-    width: 20px;
-    background-color: white;
-    border-left: 100px solid red;
-    border-right: 220px solid red;
-    margin: 20px auto 0px;
+.denmark:nth-child(2) {
+    width: 15%;
+    height: 40px;
+    border-left: 55px solid red;
+    border-right: 200px solid red;
+    margin-top: 20px;
 }
+
 
 .chile {
     height: 100px;
@@ -166,24 +164,25 @@ p {
     width: 100px;
 }
 
-.fin {
-    background-color: rgb(17, 17, 51);
+.finland {
+    background-color: rgb(9, 9, 61);
+    margin: 20px auto 0px;
     height: 180px;
     width: 300px;
-    margin: 20px auto 0px;
+    border: 1px solid black;
 }
-.blueline {
-    height: 80px;
-    width: 50px;
-    background-color: rgb(17, 17, 51);
-    border-left: 50px solid white;
-    border-right: 200px solid white;
+.box1:nth-child(1) {
+    height: 40px;
+    width: 27%;
+    border-top: 70px solid white;
+    border-bottom: 70px solid white;
+    float: left;
 }
-.whiteline {
-    height: 80px;
-    width: 50px;
-    background-color: rgb(17, 17, 51);
-    border-left: 50px solid white;
-    border-right: 200px solid white;
-    margin: 50px auto 0px;
+
+.box1:nth-child(2) {
+    height: 40px;
+    width: 60%;
+    border-top: 70px solid white;
+    border-bottom: 70px solid white;
+    float: right;
 }
